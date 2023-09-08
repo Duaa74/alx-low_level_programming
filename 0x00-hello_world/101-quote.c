@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: print a qoute using write function
- *	 write(int fd, conts void *buf,size_t couont);
- * Retern: 1 (not success).
+ * Descreption: A C program that print a line to the standerd error
+ *
+ * Retern: 1 (success)
 */
 
 int main(void)
