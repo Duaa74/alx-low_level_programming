@@ -3,9 +3,10 @@
 /**
  * main - Entry point
  *
- * Descreption: A C program that print a line to the standerd error
+ * Descreption: print a quate using write function
+ *	size_t write(int fd, conts void *buf, size_t count)
  *
- * Retern: 1 (success)
+ * Retern: 1 (error).
 */
 
 int main(void)
