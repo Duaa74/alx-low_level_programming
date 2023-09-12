@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main - Enrty point
+ * main - Entry point
  *
- * Description: print _putchar using puchar prototype
- *
- * Return: Alease 0 (success)
+ * Description: Prints "_putchar" followed by a newline.
+ * Return: Always 0 (Success)
 */
-
 int main(void)
 {
-	char str[] = "_puchar";
-	int ch;
-
-	for (ch = 0; ch < 8; ch++)
-		_putchar(str[ch]);
+	putchar('');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
