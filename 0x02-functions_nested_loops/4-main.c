@@ -1,14 +1,22 @@
 #include "main.h"
 
 /**
- * _isalpha - checks if a character is an alphabet.
- * @c: the character to check.
+ * main - check the code.
  *
- * Return: 1 if c is an alphabet, 0 otherwise.
+ * Return: Always 0.
 */
-int _isalpha(int c)
+int main(void)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-		return (1);
+	int r;
+
+	r = _isalpha('H');
+	_putchar(r + '0');
+	r = _isalpha('o');
+	_putchar(r + '0');
+	r = _isalpha(108);
+	_putchar(r + '0');
+	r = _isalpha(';');
+	_putchar(r + '0');
+	_putchar('\n');
 	return (0);
 }
