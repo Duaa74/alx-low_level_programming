@@ -1,10 +1,11 @@
-#include "variadic_funcions.h"
+#include "variadic_functions.h"
 
 /**
  * print_numbers - print numbers
  * @separator: string
  * @n: number of string
  * @...: a variable number
+ * Return: 0
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
