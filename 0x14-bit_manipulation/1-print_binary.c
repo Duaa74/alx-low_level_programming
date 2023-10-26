@@ -1,19 +1,19 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * _pow - func calculates (base ^ power)
- * @base: base of the exponent
- * @power: power of the exponent
+ * @base: base
+ * @power: power
  *
  * Return: value of (base ^ power)
  */
 unsigned long int _pow(unsigned int base, unsigned int power)
 {
 	unsigned long int num;
-	unsigned int a;
+	unsigned int d;
 
 	num = 1;
-	for (a = 1; a <= power; a++)
+	for (d = 1; d <= power; d++)
 		num *= base;
 	return (num);
 }
